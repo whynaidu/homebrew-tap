@@ -7,24 +7,24 @@ class Envvault < Formula
   on_macos do
     on_arm do
       url "https://github.com/whynaidu/envvault/releases/download/v0.4.0/envvault-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2b7bc29d249410af48b6c6af7d0be6c1b283cd5791abcd53d20f7347bbed6e92"
+      sha256 "5e4f2093baaba1ef5d0aba05db2da2631b03123ef64f7adbda0721d8a818350c"
     end
 
     on_intel do
       url "https://github.com/whynaidu/envvault/releases/download/v0.4.0/envvault-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "875d4b7c2d5138f2f562fb76ad6f522bc0b8b4cfa30906d68afc55eee3841782"
+      sha256 "25e28e295786a5c5c6a2cd41e757cf20db7ae81f199106565301065fd2706626"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/whynaidu/envvault/releases/download/v0.4.0/envvault-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5cd97e80d8e9e59057d2a9e84f0862c5bc7c3dbe3c3729b38d212db06472657e"
+      sha256 "571ea673cf5f422a67ccd09b516994ee9774ef2c2d2925c4248663a9d9c379ea"
     end
 
     on_intel do
       url "https://github.com/whynaidu/envvault/releases/download/v0.4.0/envvault-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0fa53df4e0e3dd9f9cbb61f098acc53f508a5effbbd83b49889665120df6af7e"
+      sha256 "5462ab294fb64d320c44c09bd644365be85280a5c9c2646b8d7db48e933fdcaf"
     end
   end
 
