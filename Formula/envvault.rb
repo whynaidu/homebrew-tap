@@ -2,29 +2,29 @@ class Envvault < Formula
   desc "Local-first encrypted environment variable manager"
   homepage "https://github.com/whynaidu/envvault"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.5.0"
+  version "0.5.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/whynaidu/envvault/releases/download/v0.5.0/envvault-v0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2d63bb1c6aa7bdebe734ac82955a15ee726f80561acd6d9096d0fd12b51b2df0"
+      url "https://github.com/whynaidu/envvault/releases/download/v0.5.1/envvault-v0.5.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f010c79dddd2346f1ccfc853b2847a00f0786d88b96738f0546005a91ce87928"
     end
 
     on_intel do
-      url "https://github.com/whynaidu/envvault/releases/download/v0.5.0/envvault-v0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d49745fc46fac9917f19171175b299e3abb8bd36ed8493453e8adffd2b865a7e"
+      url "https://github.com/whynaidu/envvault/releases/download/v0.5.1/envvault-v0.5.1-x86_64-apple-darwin.tar.gz"
+      sha256 "e6eed0157c9c30a71f9e3c6c2d719b9ef9c72ae9743ada9fec853d0c0d3e78eb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/whynaidu/envvault/releases/download/v0.5.0/envvault-v0.5.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "2bf55aec708a254fa1f85fe1c43de12d7e5a025da262c7cb6a83fe1f2d014226"
+      url "https://github.com/whynaidu/envvault/releases/download/v0.5.1/envvault-v0.5.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "f52fc83158e14822b540a60a6a50b0b59944858798edcd983ed570359012e817"
     end
 
     on_intel do
-      url "https://github.com/whynaidu/envvault/releases/download/v0.5.0/envvault-v0.5.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9567673c470f87405a15c07a6e7b1b2bb2c38b693bcfa48eed78a2bd4ee8b137"
+      url "https://github.com/whynaidu/envvault/releases/download/v0.5.1/envvault-v0.5.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ceba56830ac504951d0c035ea00777e2c0dd70abfba8ce0db9d1a243eeb93773"
     end
   end
 
